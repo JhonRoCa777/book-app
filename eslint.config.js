@@ -19,5 +19,9 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      'no-empty-pattern': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+    },
   },
 ])
